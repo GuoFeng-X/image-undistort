@@ -19,5 +19,7 @@ roscore
 rosrun image_undistort image_undistort_node
 ```
 # 4. 播放数据
+```
 rosbag play image_data.bag
+```
 
