@@ -1,5 +1,7 @@
 
+```
 说明：使用opencv的remap和initUndistortRectifyMap两个函数实现图像的去畸变
+```
 # 1.输入读取ROS畸变图像，包含内参，畸变参数，适用于针孔相机模型
 # 2.输出opencv无畸变图像
 
