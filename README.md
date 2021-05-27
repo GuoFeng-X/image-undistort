@@ -4,16 +4,20 @@
 # 2.输出opencv无畸变图像
 
 # 3.使用方法
+```
 cd catkin_ws/src
 git clone https://github.com/GuoFeng-X/image-undistort.git
+```
 
+```
 cd ..
 catkin_make
 source devel/setup.bash
-
+```
+```
 roscore
 rosrun image_undistort image_undistort_node
-
+```
 # 4. 播放数据
 rosbag play image_data.bag
 
